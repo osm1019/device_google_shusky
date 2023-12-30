@@ -17,10 +17,10 @@ include device/google/shusky/husky/device-lineage.mk
 # Xtras
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-TARGET_SUPPORTS_QUICK_TAP := false
-TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_INCLUDE_PIXEL_FRAMEWORK := true
+TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
+TARGET_DEVICE := husky
+
 # Debugging
 TARGET_INCLUDE_MATLOG := true
 TARGET_DEFAULT_ADB_ENABLED := true
@@ -28,7 +28,6 @@ TARGET_DEFAULT_ADB_ENABLED := true
 # Maintainer
 ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := OscarOP11
-WITH_GMS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
