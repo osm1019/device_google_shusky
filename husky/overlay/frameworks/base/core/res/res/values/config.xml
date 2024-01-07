@@ -302,4 +302,7 @@
     <!-- Boolean indicating whether allow sending null to modem to clear the previous initial attach
          data profile -->
     <bool name="allow_clear_initial_attach_data_profile">true</bool>
+    
+    <string name="config_stockFingerprint" translatable="false">google/husky/husky:14/UQ1A.231205.015/11084887:user/release-keys</string>
+
 </resources>
