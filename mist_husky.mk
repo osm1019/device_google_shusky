@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/mist/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_husky.mk)
@@ -33,7 +33,7 @@ ALPHA_MAINTAINER := OscarOP11
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
-PRODUCT_NAME := lineage_husky
+PRODUCT_NAME := mist_husky
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2992
