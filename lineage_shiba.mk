@@ -27,8 +27,13 @@ TARGET_INCLUDE_MATLOG := true
 TARGET_DEFAULT_ADB_ENABLED := true
 
 # Maintainer
-ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := OscarOP11
+ALPHA_BUILD_TYPE := official
+ALPHA_MAINTAINER := OscarM
+
+# Device identifier. This must come after all inclusions
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Pixel 8 Pro
+PRODUCT_NAME := lineage_husky
 
 
 # Device identifier. This must come after all inclusions
