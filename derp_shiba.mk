@@ -21,6 +21,7 @@ WITH_GMS := true
 TARGET_IS_PIXEL_8 := true
 TARGET_IS_PIXEL := true
 TARGET_PIXEL_STAND_SUPPORTED := true
+EXTRA_UDFPS_ICONS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
