@@ -22,6 +22,11 @@ TARGET_IS_PIXEL_8 := true
 TARGET_IS_PIXEL := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+#AlphaDroid
+ALPHA_BUILD_TYPE := official
+ALPHA_MAINTAINER := OscarM
+
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
