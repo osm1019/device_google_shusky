@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_shiba.mk)
@@ -20,17 +20,16 @@ TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 TARGET_IS_PIXEL_8 := true
 TARGET_IS_PIXEL := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
 
-#AlphaDroid
-ALPHA_BUILD_TYPE := official
-ALPHA_MAINTAINER := OscarM
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := lineage_shiba
+PRODUCT_NAME := voltage_shiba
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
