@@ -23,6 +23,16 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 
+#Evolution Xtras
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GMS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+#Evolution build type
+EVO_BUILD_TYPE := Official
+#BCR
+BUILD_BCR := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
